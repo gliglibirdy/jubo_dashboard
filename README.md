@@ -4,8 +4,8 @@
 
 ## 線上網址
 
-- **正式站**：https://yienhuang.github.io/jubo_dashboard/
-- **Repo**：https://github.com/yienhuang/jubo_dashboard
+- **正式站**：https://gliglibirdy.github.io/jubo_dashboard/
+- **Repo**：https://github.com/gliglibirdy/jubo_dashboard
 
 部署方式：push 到 `main` → GitHub Actions 自動 build & deploy（詳見 [`docs/github-pages-deploy.md`](./docs/github-pages-deploy.md)）。
 
