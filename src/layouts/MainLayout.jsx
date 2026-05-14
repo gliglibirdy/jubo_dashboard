@@ -18,6 +18,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import DashboardIcon from '@mui/icons-material/Dashboard'
 import PeopleIcon from '@mui/icons-material/People'
 import SpeedIcon from '@mui/icons-material/Speed'
+import WbSunnyIcon from '@mui/icons-material/WbSunny'
 import Logo from '@/components/Logo'
 
 const RAIL_WIDTH = 72
@@ -31,6 +32,7 @@ const navGroups = [
       { label: '首頁總覽', to: '/', icon: <DashboardIcon /> },
       { label: '產能管理', to: '/capacity', icon: <SpeedIcon /> },
       { label: '人力管理', to: '/workforce', icon: <PeopleIcon /> },
+      { label: '日照中心', to: '/daycare', icon: <WbSunnyIcon /> },
     ],
   },
 ]
@@ -188,7 +190,7 @@ export default function MainLayout() {
 
       <Box
         component="nav"
-        sx={{ width: RAIL_WIDTH, flexShrink: 0 }}
+        sx={{ width: { xs: 0, sm: RAIL_WIDTH }, flexShrink: 0 }}
         aria-label="primary navigation rail"
       >
         <Drawer

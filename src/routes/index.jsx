@@ -4,6 +4,7 @@ import Dashboard from '@/pages/Dashboard'
 import Residents from '@/pages/Residents'
 import CareRecords from '@/pages/CareRecords'
 import Capacity from '@/pages/Capacity'
+import Daycare from '@/pages/Daycare'
 import Workforce from '@/pages/Workforce'
 import Settings from '@/pages/Settings'
 import NotFound from '@/pages/NotFound'
@@ -17,6 +18,7 @@ export const router = createHashRouter([
       { path: 'residents', element: <Residents /> },
       { path: 'care-records', element: <CareRecords /> },
       { path: 'capacity', element: <Capacity /> },
+      { path: 'daycare', element: <Daycare /> },
       { path: 'workforce', element: <Workforce /> },
       { path: 'settings', element: <Settings /> },
       { path: '404', element: <NotFound /> },
