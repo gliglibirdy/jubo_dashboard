@@ -1,0 +1,68 @@
+{
+  "hash": "c9db7958",
+  "configHash": "4b4f2413",
+  "lockfileHash": "90e8d548",
+  "browserHash": "302e8cbf",
+  "optimized": {
+    "@mui/material/CssBaseline": {
+      "src": "../../node_modules/@mui/material/CssBaseline/index.mjs",
+      "file": "@mui_material_CssBaseline.js",
+      "fileHash": "c3101826",
+      "needsInterop": false
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.mjs",
+      "file": "@mui_material_styles.js",
+      "fileHash": "21521199",
+      "needsInterop": false
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "d2c949c7",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0a43160e",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "a35cea60",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e38da873",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "885e74e0",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "jsx-runtime-JZlO7M4I": {
+      "file": "jsx-runtime-JZlO7M4I.js",
+      "isDynamicEntry": false
+    },
+    "react-BejDdLFV": {
+      "file": "react-BejDdLFV.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-Ds__Jv24": {
+      "file": "react-dom-Ds__Jv24.js",
+      "isDynamicEntry": false
+    },
+    "styled-CVsIbdWg": {
+      "file": "styled-CVsIbdWg.js",
+      "isDynamicEntry": false
+    }
+  }
+}
